@@ -1,0 +1,6 @@
+package net.junhabaek.springtestexercise.order.application;
+
+public class BuyOrderCommandTest {
+
+    // TODO Command Validation Test
+}

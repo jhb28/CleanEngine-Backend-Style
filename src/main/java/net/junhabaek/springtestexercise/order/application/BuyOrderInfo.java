@@ -1,0 +1,18 @@
+package net.junhabaek.springtestexercise.order.application;
+
+import lombok.Builder;
+
+import java.time.LocalDateTime;
+
+public record BuyOrderInfo (
+    Long id,
+    String ticker,
+    Long userId,
+    Double size,
+    Double price,
+    Boolean isMarketOrder,
+    LocalDateTime createdAt
+) {
+    @Builder
+    public BuyOrderInfo {}
+}

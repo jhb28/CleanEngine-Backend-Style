@@ -1,0 +1,4 @@
+package net.junhabaek.springtestexercise.common.exception;
+
+public class EntityNotFoundException {
+}

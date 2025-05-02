@@ -1,0 +1,4 @@
+package net.junhabaek.springtestexercise.order.infra;
+
+public interface BuyOrderRepository {
+}
